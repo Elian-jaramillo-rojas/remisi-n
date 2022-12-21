@@ -462,6 +462,8 @@ input[type=time]::datetime-edit-field.numeric{
 .handsontable tr {
   background: #686666;
   height: 54px;
+  width: 500px;
+  margin-bottom: 25px;
 }
 
 .sello{
@@ -470,4 +472,12 @@ input[type=time]::datetime-edit-field.numeric{
   font-weight: 700;
   margin: 0;
   padding: 0;
+}
+
+
+.handsontable span.colHeader {
+  display: inline-block;
+  line-height: 1.1;
+  font-size: 18px;
+  font-weight: bold;
 }
