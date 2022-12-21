@@ -532,3 +532,8 @@ input[type=time]::datetime-edit-field.numeric{
 small {
   color: lightgray;
 }
+
+
+.tdMediaQuerys{
+  width: 33%;
+}
