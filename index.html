@@ -1,0 +1,469 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./estilo.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" />
+	<title>firma</title>
+
+</head>
+<body class="">
+	<div class="flex-grow-1 px-5 pt-4">
+		<div class="card-body">
+			<table id="stub-detail" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" width="100%">
+				<thead  >
+					<tr id="app" class="cuadricula" style="text-align: center;background: 9b9b9b;">
+						<td colspan="3"><img class="img-table" src="../img/logo.png" alt="logo"></td>
+						<td colspan="1" ><h6>DIA</h6> {{date}}</td>
+						<td colspan="1"><h6>MES</h6> {{Month}}</td>
+						<td colspan="1"><h6>AÑO</h6> {{year}}</td>
+						<td colspan="1"></td>
+					</tr>
+
+				</thead>
+			</table>
+	
+
+
+			<div class="fecha">
+			<table id="stub-detail" style="width: 60%;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+				<thead>
+
+					</thead>
+				</table>
+			</div>
+	
+			<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+				<thead style="
+				/* background: red; */
+				display: flex;
+				flex-direction: column;
+				gap: 5px;" >
+						<tr>
+							<td style="display: flex;">Ciudad:</td>
+						</tr>
+	
+						<tr>
+							<td style="display: flex; ">Nombre del Galponero:</td>
+						</tr>
+	
+						<tr>
+							<td style="display: flex;">Destino:</td>
+						</tr>
+	
+						<tr>
+							<td style="display: flex; ">Conductor:</td>
+						</tr>
+	
+					</thead>
+					<thead>
+						<tr>
+							<td style="width: 625px;"><select class="form-select" name="select">
+								<option value="value1">Armenia</option>
+								<option value="value2" selected>Ciudad</option>
+								<option value="value3">Montenegro</option>
+							  </select> </td>
+						</tr>
+						<tr>
+							<td><select class="form-select" name="select">
+								<option value="value1">Elian</option>
+								<option value="value2" selected>Nombre del Galponero</option>
+								<option value="value3">Juan</option>
+							  </select> </td>
+						</tr>
+						<tr>
+							<td><select class="form-select" name="select">
+								<option  value="value1">Armenia</option>
+								<option value="value2" selected>Destino</option>
+								<option value="value3">Montenegro</option>
+							  </select> </td>
+						</tr>
+						<tr>
+							<td><select class="form-select" name="select">
+								<option value="value1">Jesus</option>
+								<option value="value2" selected>Conductor</option>
+								<option value="value3">Fernando</option>
+							  </select> </td>
+						</tr>
+	
+					</thead>
+
+					</thead>
+				</table>
+	
+				<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" > 
+				<thead>
+						<tr>
+							<td  class="upae" >UPAE:</td>
+							<td style="width: 625px;"><select class="form-select" name="select">
+								<option value="value1">Jesus</option>
+								<option value="value2" selected>Conductor</option>
+								<option value="value3">Fernando</option>
+							  </select></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td  class="upae">Placa del Veiculo:</td>
+							<td><select class="form-select" name="select">
+								<option value="value1">PUM74E</option>
+								<option value="value2" selected>Placa del veiculo</option>
+								<option value="value3">MOT66F</option>
+							  </select></td>
+						</tr>
+	
+				</thead>
+				</table>
+					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+						<thead>
+							<tr>
+								<td>Hora de llegada del camion a granja</td>
+								<td>Hora de llegada de la cuadrilla a granja</td>
+								<td>Hora de inicio de cargue del pollo</td>
+								<td>Hora final de cargue del pollo</td>
+								<td>Hora de beneficio programada</td>
+								<td>Tiempo de ayuno en horas</td>
+								<td>N° de persona</td>
+								</tr>
+	
+							<tr>
+								<td><input  class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="number"></td>
+							</tr>
+	
+						</thead>
+					</table>
+					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+						<thead>
+									<div id="handsontable"></div>
+						</thead>
+					</table>
+	
+	
+	
+					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+						<thead>
+							<tr>
+								<td>Sello N°</td>
+								<td>Ciclo</td>
+								<td>Hora salida de granja</td>
+								<td>Hora llegada del camión a planta</td>
+								<td>Hora de colgado de pollo</td>
+								<td>Hora de entrada del camión a planta</td>
+							</tr>
+							<tr>
+								<td><input class="form-control" type="number"></td>
+								<td><input class="form-control" type="text"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+								<td><input class="form-control" type="time"></td>
+	
+							</tr>
+						</thead>
+					</table>
+	
+					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+						<textarea id="table_text" style="width: 100%;" placeholder="Observaciones:" name="" id=""  rows="4"></textarea> 	
+						
+					</table>
+
+<!-- firma -->
+<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+	<thead>
+
+		<tr>
+
+		
+		<td>  Firma Galponero
+			<div class="color" >
+				<label>Color</label>
+				<input type="color" id="color">
+				<label>Tamaño Puntero</label>
+				<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
+			</div>
+		
+			<div class="">
+				<div class="" >
+				<div class="">
+					<button type="button" class="open-modal" data-open="modal1">
+						<div class="" id="image-firma">
+							<div class="">
+								<div class="">
+									<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
+								</div>
+							</div>
+						</div>
+					</button>
+				  </div>
+		
+				  <div class="modal" id="modal1" data-animation="slideInOutLeft">
+					<div class="modal-dialog">
+					  <header class="modal-header">
+						<button class="close-modal" aria-label="close modal" data-close>
+						  ✕  
+						</button>
+					  </header>
+					  <section class="modal-content">
+						<div id="container-firma" class="col-md-12 my-5">
+							<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
+							
+					</div>
+					<div class="col-md-12" id="container-btn">
+						<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
+						<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
+		
+					</div>
+					  </section>
+					</div>
+				</div>
+		
+		
+		
+			</div>
+			<div>
+				<div class="col-md-12" id="container-btn">
+				</div>
+			</div>
+		
+			<div class="dataUrl">
+				<div class="col-md-12">
+					<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
+				</div>
+			</div>
+		</div>
+		
+		</td>
+
+
+		<td> Firma Conductor:
+			<div class="color" >
+			<label>Color</label>
+			<input type="color" id="color">
+			<label>Tamaño Puntero</label>
+			<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
+		</div>
+	
+		<div class="">
+			<div class="" >
+			<div class="">
+				<button type="button" class="open-modal" data-open="modal1">
+					<div class="" id="image-firma">
+						<div class="">
+							<div class="">
+								<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
+							</div>
+						</div>
+					</div>
+				</button>
+			  </div>
+	
+			  <div class="modal" id="modal1" data-animation="slideInOutLeft">
+				<div class="modal-dialog">
+				  <header class="modal-header">
+					<button class="close-modal" aria-label="close modal" data-close>
+					  ✕  
+					</button>
+				  </header>
+				  <section class="modal-content">
+					<div id="container-firma" class="col-md-12 my-5">
+						<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
+						
+				</div>
+				<div class="col-md-12" id="container-btn">
+					<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
+					<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
+	
+				</div>
+				  </section>
+				</div>
+			</div>
+	
+	
+	
+		</div>
+		<div>
+			<div class="col-md-12" id="container-btn">
+			</div>
+		</div>
+	
+		<div class="dataUrl">
+			<div class="col-md-12">
+				<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
+			</div>
+		</div>
+	</div>
+	</td>
+	</tr>
+
+	<tr>
+		<td> Firma supervisor de cargue:
+			<div class="color" >
+			<label>Color</label>
+			<input type="color" id="color">
+			<label>Tamaño Puntero</label>
+			<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
+		</div>
+	
+		<div class="">
+			<div class="" >
+			<div class="">
+				<button type="button" class="open-modal" data-open="modal1">
+					<div class="" id="image-firma">
+						<div class="">
+							<div class="">
+								<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
+							</div>
+						</div>
+					</div>
+				</button>
+			  </div>
+	
+			  <div class="modal" id="modal1" data-animation="slideInOutLeft">
+				<div class="modal-dialog">
+				  <header class="modal-header">
+					<button class="close-modal" aria-label="close modal" data-close>
+					  ✕  
+					</button>
+				  </header>
+				  <section class="modal-content">
+					<div id="container-firma" class="col-md-12 my-5">
+						<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
+						
+				</div>
+				<div class="col-md-12" id="container-btn">
+					<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
+					<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
+	
+				</div>
+				  </section>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="col-md-12" id="container-btn">
+			</div>
+		</div>
+	
+		<div class="dataUrl">
+			<div class="col-md-12">
+				<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
+			</div>
+		</div>
+	</div>
+</td>
+
+
+
+		<td>Firma
+			<div class="color" >
+				<label>Color</label>
+				<input type="color" id="color">
+				<label>Tamaño Puntero</label>
+				<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
+			</div>
+		
+			<div class="">
+				<div class="" >
+				<div class="">
+					<button type="button" class="open-modal" data-open="modal1">
+						<div class="" id="image-firma">
+							<div class="">
+								<div class="">
+									<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
+								</div>
+							</div>
+						</div>
+					</button>
+				  </div>
+		
+				  <div class="modal" id="modal1" data-animation="slideInOutLeft">
+					<div class="modal-dialog">
+					  <header class="modal-header">
+						<button class="close-modal" aria-label="close modal" data-close>
+						  ✕  
+						</button>
+					  </header>
+					  <section class="modal-content">
+						<div id="container-firma" class="col-md-12 my-5">
+							<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
+							
+					</div>
+					<div class="col-md-12" id="container-btn">
+						<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
+						<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
+		
+					</div>
+					  </section>
+					</div>
+				</div>
+		
+		
+		
+			</div>
+			<div>
+				<div class="col-md-12" id="container-btn">
+				</div>
+			</div>
+		
+			<div class="dataUrl">
+				<div class="col-md-12">
+					<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
+				</div>
+			</div>
+		</div>
+		</td>
+	</tr>
+
+	</thead>
+</table>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+	Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+
+<footer>
+	<div class="ubicacion">
+		<p>KM 2 via Aeropuesto el Edén Tel:(6)747 03 60-747 72 00 Telefax: (6) 747 47 44 Armenia-Quindio</p>
+	</div>
+</footer>
+	
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
