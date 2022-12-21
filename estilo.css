@@ -98,7 +98,13 @@
   gap: 30px;
 }
 
-
+.sello {
+  color: red;
+  font-size: 25px;
+  margin-bottom: 25px !important;
+  font-weight: 700;
+  font-family: serif;
+}
 
 #stub-detail label {
   width: 100%;
@@ -456,4 +462,12 @@ input[type=time]::datetime-edit-field.numeric{
 .handsontable tr {
   background: #686666;
   height: 54px;
+}
+
+.sello{
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
