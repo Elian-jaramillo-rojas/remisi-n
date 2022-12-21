@@ -96,7 +96,13 @@
   gap: 30px;
 }
 
-
+.sello {
+  color: red;
+  font-size: 25px;
+  margin-bottom: 25px !important;
+  font-weight: 700;
+  font-family: serif;
+}
 
 #stub-detail label {
   width: 100%;
