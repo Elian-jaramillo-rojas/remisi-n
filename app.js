@@ -59,7 +59,6 @@ const app= new Vue({
 	
 	function model(opts) {
 	  let _pub = {
-		id: undefined,
 		name: undefined,
 		address: undefined
 	  };
@@ -73,12 +72,12 @@ const app= new Vue({
 	
 	  _pub.attr = function (attr, val) {
 		if (typeof val === 'undefined') {
-		  window.console && console.log('GET the', attr, 'value of', _pub);
+		//   window.console && console.log('GET the', attr, 'value of', _pub);
 	
 		  return _priv[attr];
 		}
 	
-		window.console && console.log('SET the', attr, 'value of', _pub);
+		// window.console && console.log('SET the', attr, 'value of', _pub);
 		_priv[attr] = val;
 	
 		return _pub;
