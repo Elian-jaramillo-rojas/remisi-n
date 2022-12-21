@@ -186,81 +186,23 @@
 	<thead>
 
 		<tr>
-
-		
-		<td>  Firma Galponero
-			<div class="color" >
-				<label>Color</label>
-				<input type="color" id="color">
-				<label>Tamaño Puntero</label>
-				<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
-			</div>
-		
-			<div class="">
-				<div class="" >
-				<div class="">
-					<button type="button" class="open-modal" data-open="modal1">
-						<div class="" id="image-firma">
-							<div class="">
-								<div class="">
-									<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
-								</div>
-							</div>
-						</div>
-					</button>
-				  </div>
-		
-				  <div class="modal" id="modal1" data-animation="slideInOutLeft">
-					<div class="modal-dialog">
-					  <header class="modal-header">
-						<button class="close-modal" aria-label="close modal" data-close>
-						  ✕  
-						</button>
-					  </header>
-					  <section class="modal-content">
-						<div id="container-firma" class="col-md-12 my-5">
-							<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
-							
-					</div>
-					<div class="col-md-12" id="container-btn">
-						<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
-						<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
-		
-					</div>
-					  </section>
-					</div>
+			<!--  M  O  D  A  L    1 -->
+			<div id="open-modal" class="modal-window">
+				<div>
+				<a style="color: black;" href="#" title="Close" class="modal-close">✕</a>
+				<div id="container-firma" class="col-md-12">
+					<canvas id="draw-canvas" width="550" height="220"> Firmar *______________________</canvas>
 				</div>
-		
-		
-		
-			</div>
-			<div>
 				<div class="col-md-12" id="container-btn">
+					<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
+					<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
+				</div>
 				</div>
 			</div>
-		
-			<div class="dataUrl">
-				<div class="col-md-12">
-					<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
-				</div>
-			</div>
-		</div>
-		
-		</td>
-
-
-		<td> Firma Conductor:
-			<div class="color" >
-			<label>Color</label>
-			<input type="color" id="color">
-			<label>Tamaño Puntero</label>
-			<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
-		</div>
-	
-		<div class="">
-			<div class="" >
-			<div class="">
-				<button type="button" class="open-modal" data-open="modal1">
+  
+			<td>  Firma Galponero
+				<div class="interior">
+					<a id="OpenModalOne"  class="btn" href="#open-modal">
 					<div class="" id="image-firma">
 						<div class="">
 							<div class="">
@@ -268,193 +210,64 @@
 							</div>
 						</div>
 					</div>
-				</button>
-			  </div>
-	
-			  <div class="modal" id="modal1" data-animation="slideInOutLeft">
-				<div class="modal-dialog">
-				  <header class="modal-header">
-					<button class="close-modal" aria-label="close modal" data-close>
-					  ✕  
-					</button>
-				  </header>
-				  <section class="modal-content">
-					<div id="container-firma" class="col-md-12 my-5">
-						<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
-						
+					</a>	
+				</div>
+				<div><div class="col-md-12" id="container-btn"></div></div>
+				<div class="dataUrl">
+					<div class="col-md-12">
+						<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+			</div>
+			</td>
+
+
+			 <!-- M  O  D  A  L    2 -->
+			<div id="open-modal" class="modal-window">
+				<div>
+				<a style="color: black;" href="#" title="Close" class="modal-close">✕</a>
+				<div id="container-firma" class="col-md-12">
+					<canvas id="Twodrawcanvas" width="550" height="220"> Firmar *______________________</canvas>
 				</div>
 				<div class="col-md-12" id="container-btn">
-					<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
-					<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
-	
+					<input type="button" class="btn btn-primary" id="TwodrawsubmitBtn" class="modal-close" value="Crear firma"></input>
+					<input type="button" class="btn btn-primary" id="TwodrawclearBtn" value="Borrar firma"></input>
 				</div>
-				  </section>
 				</div>
 			</div>
 	
-	
-	
-		</div>
-		<div>
-			<div class="col-md-12" id="container-btn">
-			</div>
-		</div>
-	
-		<div class="dataUrl">
-			<div class="col-md-12">
-				<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
-			</div>
-		</div>
-	</div>
-	</td>
-	</tr>
-
-	<tr>
-		<td> Firma supervisor de cargue:
-			<div class="color" >
-			<label>Color</label>
-			<input type="color" id="color">
-			<label>Tamaño Puntero</label>
-			<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
-		</div>
-	
-		<div class="">
-			<div class="" >
-			<div class="">
-				<button type="button" class="open-modal" data-open="modal1">
+			<td>Firma Conductor
+				<div class="interior">
+					<a id="OpenModalTwo" class="btn" href="#open-modal">
 					<div class="" id="image-firma">
 						<div class="">
 							<div class="">
-								<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
+								<img id="Twodrawimage" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
 							</div>
 						</div>
 					</div>
-				</button>
-			  </div>
-	
-			  <div class="modal" id="modal1" data-animation="slideInOutLeft">
-				<div class="modal-dialog">
-				  <header class="modal-header">
-					<button class="close-modal" aria-label="close modal" data-close>
-					  ✕  
-					</button>
-				  </header>
-				  <section class="modal-content">
-					<div id="container-firma" class="col-md-12 my-5">
-						<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
-						
+					</a>	
 				</div>
-				<div class="col-md-12" id="container-btn">
-					<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
-					<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
-	
-				</div>
-				  </section>
-				</div>
-			</div>
-		</div>
-		<div>
-			<div class="col-md-12" id="container-btn">
-			</div>
-		</div>
-	
-		<div class="dataUrl">
-			<div class="col-md-12">
-				<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
-			</div>
-		</div>
-	</div>
-</td>
-
-
-
-		<td>Firma
-			<div class="color" >
-				<label>Color</label>
-				<input type="color" id="color">
-				<label>Tamaño Puntero</label>
-				<input type="range" id="puntero" min="1" default="1" max="5" width="10%">
-			</div>
-		
-			<div class="">
-				<div class="" >
-				<div class="">
-					<button type="button" class="open-modal" data-open="modal1">
-						<div class="" id="image-firma">
-							<div class="">
-								<div class="">
-									<img id="draw-image" src="./img/undraw_terms_re_6ak4.svg" alt="Firma!"/>
-								</div>
-							</div>
-						</div>
-					</button>
-				  </div>
-		
-				  <div class="modal" id="modal1" data-animation="slideInOutLeft">
-					<div class="modal-dialog">
-					  <header class="modal-header">
-						<button class="close-modal" aria-label="close modal" data-close>
-						  ✕  
-						</button>
-					  </header>
-					  <section class="modal-content">
-						<div id="container-firma" class="col-md-12 my-5">
-							<canvas id="draw-canvas" width="620" height="300"> Firmar *____________________________</canvas>
-							
-					</div>
-					<div class="col-md-12" id="container-btn">
-						<input type="button" class="btn btn-primary" id="draw-submitBtn" value="Crear firma"></input>
-						<input type="button" class="btn btn-primary" id="draw-clearBtn" value="Borrar firma"></input>
-		
-					</div>
-					  </section>
+				<div><div class="col-md-12" id="container-btn"></div></div>
+				<div class="dataUrl">
+					<div class="col-md-12">
+						<textarea id="TwodrawdataUrl" class="form-control" rows="5"></textarea>
 					</div>
 				</div>
-		
-		
-		
 			</div>
-			<div>
-				<div class="col-md-12" id="container-btn">
-				</div>
-			</div>
+			</td>
+			<!----------------------->
+
 		
-			<div class="dataUrl">
-				<div class="col-md-12">
-					<textarea id="draw-dataUrl" class="form-control" rows="5"></textarea>
-				</div>
-			</div>
-		</div>
-		</td>
-	</tr>
+		</tr>
+
+		
+
+
+	
 
 	</thead>
 </table>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-	Launch demo modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-	  <div class="modal-content">
-		<div class="modal-header">
-		  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-		</div>
-		<div class="modal-body">
-		  ...
-		</div>
-		<div class="modal-footer">
-		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-		  <button type="button" class="btn btn-primary">Save changes</button>
-		</div>
-	  </div>
-	</div>
-  </div>
-
 
 <footer>
 	<div class="ubicacion">
@@ -465,5 +278,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script src="./app.js"></script>
+<script src="./app2.js"></script>
+
 </body>
 </html>

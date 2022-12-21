@@ -1,5 +1,4 @@
 
-
 .conter-input {
   display: flex;
   justify-content: space-between;
@@ -21,7 +20,6 @@
 }
 
 .btn-cont button {
-
   margin: 0 12px
 }
 
@@ -178,9 +176,8 @@ H6{
 }
 
 #draw-canvas{
-  border: 3px dashed darkblue; 
+  border: 3px dashed rgb(74, 74, 74); 
   border-radius: 5px;
-
 }
 
 .color{
@@ -192,18 +189,15 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 70px;
-width: 107%;
+margin-top: 2.5rem;
+width: 100%;
 }
 
 
 #draw-image {
   width: 360px;
-  height: 120px;
-  margin-top: -12px;
-  border: 3px solid rgb(126, 126, 128);
+  height: 200px;
   border-radius: 5px;
-  padding: 0;
-  /* margin: 0; */
 }
 
 .dataUrl{
@@ -256,8 +250,6 @@ button {
 .open-modal {
   font-weight: bold;
   color: var(--white);
-  padding: 0.75rem 1.75rem;
-  margin-bottom: 1rem;
   border-radius: 5px;
 }
 
@@ -313,6 +305,7 @@ button {
 
 .modal-header .close-modal {
   font-size: 1.5rem;
+  color: #000;
 }
 
 .modal p + p {
@@ -456,4 +449,80 @@ input[type=time]::datetime-edit-field.numeric{
 .handsontable tr {
   background: #686666;
   height: 54px;
+}
+
+.back-Image{
+  object-fit: cover;
+  width: 360px;
+  height: 200px;
+}
+
+
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  background: #000000bf;
+}
+
+.modal-window > div {
+  width: 646px;
+  height: 376px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: white;
+}
+
+.modal-close {
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 51px;
+  font-size: 26px;
+}
+
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal-window div {
+    border-radius: 10px;
+  }
+
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.logo {
+  max-width: 150px;
+  display: block;
+}
+
+small {
+  color: lightgray;
 }
