@@ -9,7 +9,7 @@
 	<title>firma</title>
 
 </head>
-<body style="width: 100%; height: 100%; padding: 5rem; ">
+<body style="width: 100%; height: auto; padding: 5rem; ">
 	<div>
 		<div class="card-body">
 			<table id="stub-detail" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" width="100%">
@@ -103,69 +103,103 @@
 		</div>
 
 
-					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
-						<div>
-							<tr>
-								<td>Hora de llegada del camion a granja</td>
-								<td>Hora de llegada de la cuadrilla a granja</td>
-								<td>Hora de inicio de cargue del pollo</td>
-								<td>Hora final de cargue del pollo</td>
+		<div  style=" display: flex; width: 100%;  height: auto;" >
 
-							</tr>
-							<tr>
-								<td><input  class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-							</tr>
-						</div>
-						<div style="width: 100%;">
-							<tr>
-								<td class="tdMediaQuerys" >Hora de beneficio programada</td>
-								<td class="tdMediaQuerys">Tiempo de ayuno en horas</td>
-								<td class="tdMediaQuerys">N° de persona</td>
-							</tr>
-							<tr>
-								<td class="tdMediaQuerys" ><input class="form-control" type="time"></td>
-								<td class="tdMediaQuerys" ><input class="form-control" type="time"></td>
-								<td class="tdMediaQuerys" ><input class="form-control" type="number"></td>
-							</tr>
-						</div>
-					</table>
-					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
-						<thead>
-							<div id="handsontable" class="hot"></div>
-						</thead>
-					</table>
-	
-	
-	
-					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
-						<thead>
-							<tr>
-								<td>Sello N°</td>
-								<td>Ciclo</td>
-								<td>Hora salida de granja</td>
-								<td>Hora llegada del camión a planta</td>
-								<td>Hora de colgado de pollo</td>
-								<td>Hora de entrada del camión a planta</td>
-							</tr>
-							<tr>
-								<td><input class="form-control" type="number"></td>
-								<td><input class="form-control" type="text"></td>
-								<td><input class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-								<td><input class="form-control" type="time"></td>
-	
-							</tr>
-						</thead>
-					</table>
-	
-					<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
-						<textarea id="table_text" style="width: 100%;" placeholder="Observaciones:" name="" id=""  rows="4"></textarea> 	
-						
-					</table>
+			<div style="background-color: rgb(216, 216, 216);  border: 2px solid #9b9b9b;  display: flex; flex-direction: column;  width: 25%;" >
+				<div class="ContentTimesTitles">Hora de llegada del camion a granja</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   T I M E  (1) -->
+					<input  class="form-control" type="time">
+				</div>
+			</div>
+
+			<div class="ContentTimes" >
+				<div class="ContentTimesTitles">Hora de llegada del camion a granja</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   T I M E  (2) -->
+					 <input  class="form-control" type="time">
+				</div>
+			</div>
+
+
+			<div class="ContentTimes" >
+				<div class="ContentTimesTitles"  >Hora de llegada del camion a granja</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   T I M E  (3) -->
+					 <input  class="form-control" type="time">
+				</div>
+			</div>
+
+
+			<div class="ContentTimes" >
+				<div class="ContentTimesTitles"  >Hora de llegada del camion a granja</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   T I M E  (4) -->
+					 <input  class="form-control" type="time">
+				</div>
+			</div>
+		</div>
+
+
+		<!-- /////////////////// -->
+		<!-- S E C T I O N  (2)  -->
+
+		<div  style=" display: flex; width: 100%;  height: auto;" >
+
+			<div style="width: 33.33%; background-color: rgb(216, 216, 216);  border: 2px solid #9b9b9b; border-top: none; display: flex; flex-direction: column;" >
+				<div class="ContentTimesTitles"  >Hora de beneficio programada</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   (5)-->
+					<input  class="form-control" type="time">
+				</div>
+			</div>
+
+			<div style="width: 33.33%; background-color: rgb(216, 216, 216);  border: 2px solid #9b9b9b; border-top: none;border-left: none;   display: flex; flex-direction: column;" >
+				<div class="ContentTimesTitles">Tiempo de ayuno en horas</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T   (6)-->
+					<input  class="form-control" type="time">
+				</div>
+			</div>
+
+
+			<div style="width: 33.33%; background-color: rgb(216, 216, 216);  border: 2px solid #9b9b9b; border-top: none;border-left: none;   display: flex; flex-direction: column;" >
+				<div class="ContentTimesTitles">Numero de personas</div>
+				<div style="padding: 1rem;" >
+					 <!-- I N P U T  (7)-->
+					<input  class="form-control" type="time">
+				</div>
+			</div>
+
+		</div>
+		<br><br>
+
+		<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+			<thead>
+				<tr>
+					<td>Sello N°</td>
+					<td>Ciclo</td>
+					<td>Hora salida de granja</td>
+					<td>Hora llegada del camión a planta</td>
+					<td>Hora de colgado de pollo</td>
+					<td>Hora de entrada del camión a planta</td>
+				</tr>
+				<tr>
+					<td><input class="form-control" type="number"></td>
+					<td><input class="form-control" type="text"></td>
+					<td><input class="form-control" type="time"></td>
+					<td><input class="form-control" type="time"></td>
+					<td><input class="form-control" type="time"></td>
+					<td><input class="form-control" type="time"></td>
+
+				</tr>
+			</thead>
+		</table>
+
+		<table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
+			<textarea id="table_text" style="width: 100%;" placeholder="Observaciones:" name="" id=""  rows="4"></textarea> 	
+			
+		</table>
 
 <!-- firma -->
 <table id="stub-detail-1" style="width: 100%;display: flex;" class=" col-md-12 table nowrap responsive table-striped dt-responsive stub-table" >
