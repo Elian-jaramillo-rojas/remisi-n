@@ -32,7 +32,7 @@ function ModalOneFuntion() {
 	ctx.font = "bold 22px sans-serif";
 	ctx.fillText("Firmar",15,30)
 
-	ctx.fillText("__________________________________________________",10,160)
+	ctx.fillText("_______________________________________________________",10,160)
 
 
 
@@ -48,7 +48,7 @@ function ModalOneFuntion() {
 		ctx.font = "bold 22px sans-serif";
 		ctx.fillText("Firmar",15,30)
 
-		ctx.fillText("__________________________________________________",10,160)
+		ctx.fillText("_______________________________________________________",10,160)
 
 	}, false);
 		
@@ -176,7 +176,7 @@ function ModalTwoFuntion() {
 	ctxTwo.font = "bold 22px sans-serif";
 	ctxTwo.fillText("Firmar",15,30)
 
-	ctxTwo.fillText("___________________________________________",10,160)
+	ctxTwo.fillText("_______________________________________________________",10,160)
 
 	var TwodrawText = document.getElementById("TwodrawdataUrl");
 	var TwodrawImage = document.getElementById("Twodrawimage");
@@ -190,7 +190,7 @@ function ModalTwoFuntion() {
 		TwodrawText.innerHTML = '';
 		ctxTwo.font = "bold 22px sans-serif";
 		ctxTwo.fillText("Firmar*",15,30)
-		ctxTwo.fillText("___________________________________________",10,160)
+		ctxTwo.fillText("_______________________________________________________",10,160)
 
 	}, false);
 		
@@ -315,7 +315,7 @@ function ModalThreeFuntion() {
 	ctxTwo.font = "bold 22px sans-serif";
 	ctxTwo.fillText("Firmar",15,30)
 
-	ctxTwo.fillText("___________________________________________",10,160)
+	ctxTwo.fillText("_______________________________________________________",10,160)
 
 	var TwodrawText = document.getElementById("ThreedrawdataUrl");
 	var TwodrawImage = document.getElementById("Threedrawimage");
@@ -329,7 +329,7 @@ function ModalThreeFuntion() {
 		TwodrawText.innerHTML = '';
 		ctxTwo.font = "bold 22px sans-serif";
 		ctxTwo.fillText("Firmar*",15,30)
-		ctxTwo.fillText("___________________________________________",10,160)
+		ctxTwo.fillText("_______________________________________________________",10,160)
 
 	}, false);
 		

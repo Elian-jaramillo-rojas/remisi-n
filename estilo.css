@@ -76,6 +76,7 @@
   text-align: center;
   border: 2px solid rgb(155, 155, 155);
   border-collapse: collapse;
+  font-size: 34px;
 }
 
 .img-table {
@@ -497,15 +498,14 @@ input[type=time]::datetime-edit-field.numeric{
   background: white;
 }
 
-/* .modal-close {
-  line-height: 50px;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: 51px;
-  font-size: 26px;
-} */
+.modal-close{
+
+  color: black;
+  margin-top: -30px;
+  margin-bottom: 7px;
+  font-size: 31px;
+}
+
 
 
 .container {
