@@ -55,7 +55,7 @@
   text-align: center;
   border: 2px solid #9b9b9b;
   border-collapse: collapse;
-  background-color: rgb(216, 216, 216);
+  background-color: #d8d8d8;
   /* height: 20px; */
   width: 400px;
 }
@@ -537,3 +537,7 @@ small {
 .tdMediaQuerys{
   width: 33%;
 }
+
+
+.InfoContent { display: flex; gap: 10px;  justify-content: center; align-items: center;   width: 100%; border: 2px solid #9b9b9b; background-color: #d8d8d8;; height: 44px;}
+.InfoContentwo { display: flex; gap: 10px;  justify-content: center; align-items: center;   width: 100%; border: 2px solid #9b9b9b;  border-top: none; background-color: #d8d8d8;; height: 44px;}
