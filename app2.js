@@ -26,12 +26,11 @@ window.requestAnimFrame = (function (callback) {
 function ModalOneFuntion() { 
 
 
-	console.log("arlettttttttttttttt  2dooooooooooooo");
 
 	var canvas = document.getElementById("draw-canvas");
 	var ctx = canvas.getContext("2d");
 	ctx.font = "bold 22px sans-serif";
-	ctx.fillText("Firmar",15,30)
+	ctx.fillText("Firma*",15,30)
 
 	ctx.fillText("_______________________________________________________",10,160)
 
@@ -44,10 +43,10 @@ function ModalOneFuntion() {
 	clearBtn.addEventListener("click", function (e) {
 		
 		clearCanvas();
-		drawImage.setAttribute("src", "../img/undraw_terms_re_6ak.svg");
+		drawImage.setAttribute("src", "./img/Hazclick.png");
 		drawText.innerHTML = '';
 		ctx.font = "bold 22px sans-serif";
-		ctx.fillText("Firmar",15,30)
+		ctx.fillText("Firma*",15,30)
 
 		ctx.fillText("_______________________________________________________",10,160)
 
@@ -170,12 +169,11 @@ function ModalTwoFuntion() {
 
 
 
-	console.log("arlettttttttttttttt");
 
 	var canvasTwo = document.getElementById("Twodrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
 	ctxTwo.font = "bold 22px sans-serif";
-	ctxTwo.fillText("Firmar",15,30)
+	ctxTwo.fillText("Firma*",15,30)
 
 	ctxTwo.fillText("_______________________________________________________",10,160)
 
@@ -187,10 +185,10 @@ function ModalTwoFuntion() {
 
 	TwoclearBtn.addEventListener("click", function (e) {
 		clearCanvas();
-		TwodrawImage.setAttribute("src", "../img/undraw_terms_re_6ak4.svg");
+		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
 		ctxTwo.font = "bold 22px sans-serif";
-		ctxTwo.fillText("Firmar*",15,30)
+		ctxTwo.fillText("Firma*",15,30)
 		ctxTwo.fillText("_______________________________________________________",10,160)
 
 	}, false);
@@ -309,12 +307,11 @@ function ModalTwoFuntion() {
 
 function ModalThreeFuntion() { 
 
-	console.log("arlettttttttttttttt  3tresssssssssssssss ");
 
 	var canvasTwo = document.getElementById("Threedrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
 	ctxTwo.font = "bold 22px sans-serif";
-	ctxTwo.fillText("Firmar",15,30)
+	ctxTwo.fillText("Firma*",15,30)
 
 	ctxTwo.fillText("_______________________________________________________",10,160)
 
@@ -326,10 +323,10 @@ function ModalThreeFuntion() {
 
 	TwoclearBtn.addEventListener("click", function (e) {
 		clearCanvas();
-		TwodrawImage.setAttribute("src", "../img/undraw_terms_re_6ak4.svg");
+		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
 		ctxTwo.font = "bold 22px sans-serif";
-		ctxTwo.fillText("Firmar*",15,30)
+		ctxTwo.fillText("Firma*",15,30)
 		ctxTwo.fillText("_______________________________________________________",10,160)
 
 	}, false);
@@ -448,12 +445,11 @@ function ModalThreeFuntion() {
 
 function ModalFourFuntion() { 
 
-	console.log("arlettttttttttttttt  3tresssssssssssssss ");
 
 	var canvasTwo = document.getElementById("Fourdrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
 	ctxTwo.font = "bold 22px sans-serif";
-	ctxTwo.fillText("Firmar",15,30)
+	ctxTwo.fillText("Firma*",15,30)
 
 	ctxTwo.fillText("_______________________________________________________",10,160)
 
@@ -465,10 +461,10 @@ function ModalFourFuntion() {
 
 	TwoclearBtn.addEventListener("click", function (e) {
 		clearCanvas();
-		TwodrawImage.setAttribute("src", "../img/undraw_terms_re_6ak4.svg");
+		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
 		ctxTwo.font = "bold 22px sans-serif";
-		ctxTwo.fillText("Firmar*",15,30)
+		ctxTwo.fillText("Firma*",15,30)
 		ctxTwo.fillText("_______________________________________________________",10,160)
 
 	}, false);
