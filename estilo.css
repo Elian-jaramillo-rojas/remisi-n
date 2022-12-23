@@ -407,3 +407,22 @@ img{
     height: 56px;
     font-size: 29px;
 }
+
+
+
+.handsontable td {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right: 1px solid rgb(103, 102, 102)!important;
+    border-bottom: 2px solid rgb(103, 102, 102) !important;
+    border-top: 2px solid rgb(103, 102, 102) !important;
+    border-left: 1px solid rgb(103, 102, 102) !important;
+}
+
+.handsontable th{
+    background-color: rgba(169, 166, 166, 0.677) !important;
+    border-right: 1px solid rgb(103, 102, 102)!important;
+    border-bottom: 0px solid rgb(103, 102, 102) !important;
+    border-top: 2px solid rgb(103, 102, 102) !important;
+    border-left: 1px solid rgb(103, 102, 102) !important;
+}
