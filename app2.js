@@ -29,10 +29,10 @@ function ModalOneFuntion() {
 
 	var canvas = document.getElementById("draw-canvas");
 	var ctx = canvas.getContext("2d");
-	ctx.font = "bold 22px sans-serif";
+	ctx.font = "bold 25px sans-serif";
 	ctx.fillText("Firma*",15,30)
 
-	ctx.fillText("_______________________________________________________",10,160)
+	ctx.fillText("______________________________________________________________________________________",10,220)
 
 
 
@@ -45,10 +45,10 @@ function ModalOneFuntion() {
 		clearCanvas();
 		drawImage.setAttribute("src", "./img/Hazclick.png");
 		drawText.innerHTML = '';
-		ctx.font = "bold 22px sans-serif";
+		ctx.font = "bold 25px sans-serif";
 		ctx.fillText("Firma*",15,30)
 
-		ctx.fillText("_______________________________________________________",10,160)
+		ctx.fillText("______________________________________________________________________________________",10,220)
 
 	}, false);
 		
@@ -172,10 +172,10 @@ function ModalTwoFuntion() {
 
 	var canvasTwo = document.getElementById("Twodrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
-	ctxTwo.font = "bold 22px sans-serif";
+	ctxTwo.font = "bold 25px sans-serif";
 	ctxTwo.fillText("Firma*",15,30)
 
-	ctxTwo.fillText("_______________________________________________________",10,160)
+	ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	var TwodrawText = document.getElementById("TwodrawdataUrl");
 	var TwodrawImage = document.getElementById("Twodrawimage");
@@ -187,9 +187,9 @@ function ModalTwoFuntion() {
 		clearCanvas();
 		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
-		ctxTwo.font = "bold 22px sans-serif";
+		ctxTwo.font = "bold 25px sans-serif";
 		ctxTwo.fillText("Firma*",15,30)
-		ctxTwo.fillText("_______________________________________________________",10,160)
+		ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	}, false);
 		
@@ -310,10 +310,10 @@ function ModalThreeFuntion() {
 
 	var canvasTwo = document.getElementById("Threedrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
-	ctxTwo.font = "bold 22px sans-serif";
+	ctxTwo.font = "bold 25px sans-serif";
 	ctxTwo.fillText("Firma*",15,30)
 
-	ctxTwo.fillText("_______________________________________________________",10,160)
+	ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	var TwodrawText = document.getElementById("ThreedrawdataUrl");
 	var TwodrawImage = document.getElementById("Threedrawimage");
@@ -325,9 +325,9 @@ function ModalThreeFuntion() {
 		clearCanvas();
 		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
-		ctxTwo.font = "bold 22px sans-serif";
+		ctxTwo.font = "bold 25px sans-serif";
 		ctxTwo.fillText("Firma*",15,30)
-		ctxTwo.fillText("_______________________________________________________",10,160)
+		ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	}, false);
 		
@@ -448,10 +448,10 @@ function ModalFourFuntion() {
 
 	var canvasTwo = document.getElementById("Fourdrawcanvas");
 	var ctxTwo = canvasTwo.getContext("2d");
-	ctxTwo.font = "bold 22px sans-serif";
+	ctxTwo.font = "bold 25px sans-serif";
 	ctxTwo.fillText("Firma*",15,30)
 
-	ctxTwo.fillText("_______________________________________________________",10,160)
+	ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	var TwodrawText = document.getElementById("FourdrawdataUrl");
 	var TwodrawImage = document.getElementById("Fourdrawimage");
@@ -463,9 +463,9 @@ function ModalFourFuntion() {
 		clearCanvas();
 		TwodrawImage.setAttribute("src", "./img/Hazclick.png");
 		TwodrawText.innerHTML = '';
-		ctxTwo.font = "bold 22px sans-serif";
+		ctxTwo.font = "bold 25px sans-serif";
 		ctxTwo.fillText("Firma*",15,30)
-		ctxTwo.fillText("_______________________________________________________",10,160)
+		ctxTwo.fillText("______________________________________________________________________________________",10,220)
 
 	}, false);
 		

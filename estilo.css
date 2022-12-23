@@ -268,8 +268,8 @@ input[type=time]::datetime-edit-field
 } 
 
 .modal-window > div {
-    width: 677px;
-    height: 382px;
+    width: 1010px;
+    height: 557px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -281,8 +281,10 @@ input[type=time]::datetime-edit-field
     color: black;
     margin-top: 0px;
     margin-bottom: 7px;
-    font-size: 23px;
+    font-size: 40px;
     font-weight: bold;
+    width: 90px;
+    height: 67px;
 }
 
 .modal-close:hover{
@@ -385,15 +387,23 @@ h2{
 
 
 img{
-    width: 520px;
+    width: 400px;
     height: 200px;
     border-radius: 5px;
 }
 
-.container {
+.container-1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: -71px;
+    height: none;
+    margin-top: -30px;
+    width: 100%;
+}
+
+
+.btn-primary {
+    width: 250px;
+    height: 56px;
+    font-size: 29px;
 }
